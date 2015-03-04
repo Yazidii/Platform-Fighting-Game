@@ -1,4 +1,4 @@
-Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -6,14 +6,17 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     977 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: E:\Work\Development\Unity\Projects\ShittyGame\ShittyGame\development_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading E:\Work\Development\Unity\Projects\ShittyGame\ShittyGame\development_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: E:\Work\Development\Unity\Projects\ShittyGame\ShittyGame\development_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading E:\Work\Development\Unity\Projects\ShittyGame\ShittyGame\development_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: E:\Work\Development\Unity\Projects\ShittyGame\ShittyGame\development_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Work\Development\Unity\Projects\ShittyGame\ShittyGame\development_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.064 seconds
+Platform assembly: E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.084 seconds
 desktop: 1680x1050 60Hz; virtual: 3046x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: E:\Work\Development\Unity\Projects\ShittyGame\ShittyGame\development_Data\Managed\System.Core.dll (this message is harmless)
+<RI> Initialized touch support.
+Platform assembly: E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\System.Core.dll (this message is harmless)
