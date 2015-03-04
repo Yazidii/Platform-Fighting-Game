@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 6ff35d53ff74962438f01dfcaa47d159
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: placeHolder_0
+    21300002: placeHolder_1
+    21300004: placeHolder_2
+    21300006: placeHolder_3
+    21300008: placeHolder_4
+    21300010: placeHolder_5
+    21300012: placeHolder_6
+    21300014: placeHolder_7
+    21300016: placeHolder_8
+    21300018: placeHolder_9
+    21300020: placeHolder_10
+    21300022: placeHolder_11
+    21300024: placeHolder_12
+    21300026: placeHolder_13
+    21300028: placeHolder_14
+    21300030: placeHolder_15
+    21300032: placeHolder_16
+    21300034: placeHolder_17
+    21300036: placeHolder_18
+    21300038: placeHolder_19
+    21300040: placeHolder_20
+    21300042: placeHolder_21
+    21300044: placeHolder_22
+    21300046: placeHolder_23
+    21300048: placeHolder_24
+    21300050: placeHolder_25
+    21300052: placeHolder_26
+    21300054: placeHolder_27
+    21300056: placeHolder_28
+    21300058: placeHolder_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: placeHolder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 468
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 468
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 468
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_5
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 468
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_11
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_17
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 235
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_20
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_23
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_26
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_27
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: placeHolder_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
