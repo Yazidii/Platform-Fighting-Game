@@ -26,9 +26,9 @@ public class GunController : MonoBehaviour {
 		//Gun properties
 		gunSprite = transform.GetComponent<SpriteRenderer>();
 		gunLocalScale = transform.localScale.y;
-		gunCounter[0] = transform.parent.GetChild(2).GetChild(0);
-		gunCounter[1] = transform.parent.GetChild(2).GetChild(1);
-		gunCounter[2] = transform.parent.GetChild(2).GetChild(2);
+		gunCounter[0] = transform.parent.Find("GunCounters").GetChild(0);
+		gunCounter[1] = transform.parent.Find("GunCounters").GetChild(1);
+		gunCounter[2] = transform.parent.Find("GunCounters").GetChild(2);
 		gunCounter[0].GetComponent<Renderer>().enabled = false;
 		gunCounter[1].GetComponent<Renderer>().enabled = false;
 		gunCounter[2].GetComponent<Renderer>().enabled = false;
@@ -112,7 +112,7 @@ public class GunController : MonoBehaviour {
 	
 	void FireGun()
 	{
-		firedBullet = Instantiate(bullet, transform.position + transform.TransformDirection (Vector3.right) * 2.5f , transform.rotation) as Transform;
+		firedBullet = Instantiate(bullet, transform.position + transform.TransformDirection (Vector3.right) * 0.5f , transform.rotation) as Transform;
 		
 		// Give the cloned object an initial velocity along the current
 		// object's Z axis

@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 	private float unBufferDashTime = 0.5f; // Time until dash command is discarded
 	private float wallJumpSpeed = 15.0f; // Velocity of player when jumping off a wall
 	private float wallStickTime = 0.1f; 
-	private float bulletSpeed = 200;
+	private float bulletSpeed = 100;
 	
 	//Player States
 	private bool ascending = false;
@@ -102,12 +102,12 @@ public class PlayerController : MonoBehaviour
 		
 				
 		//Contained objects
-		graphics = transform.GetChild(0);
+		graphics = transform.Find("Graphics");
 		animator = graphics.GetComponent<Animator>();
-		gun = transform.GetChild(1).GetComponent<GunController>();
+		gun = transform.Find("Gun").GetComponent<GunController>();
 		gun.BulletSpeed = bulletSpeed;
 		
-		attackHitboxes = transform.GetChild(3);
+		attackHitboxes = transform.Find("Weapon");
 		//Get player width for raycasting purposes
 		localScaleX = graphics.localScale.x;
 		attackScaleX = attackHitboxes.localScale.x;
@@ -532,25 +532,44 @@ public class PlayerController : MonoBehaviour
 		RaycastHit2D left = Physics2D.Raycast(transform.position - xFromCenter - new Vector3(-0.07f,0,0), -Vector2.right, distToGround);
 		RaycastHit2D right = Physics2D.Raycast(transform.position + xFromCenter + new Vector3(0.09f,0,0), Vector2.right, distToGround);
 		
-		if (left.collider) 
+		if (left.collider)
 		{
-			return -1;
+			if (left.collider.tag == "Wall-Ground") 
+			{
+				return -1;
+			}
 		}
 		else 
-			if (right.collider) 
+			if (right.collider)
 			{
-				return 1;
+				if (right.collider.tag == "Wall-Ground") 
+				{
+					return 1;
+				}
 			}
-			else return 0;
+		return 0;
 	
 	}
 
 	//Check if body is grounded
 	bool IsGrounded() 
-	{
-		return(Physics2D.Raycast(transform.position - yFromCenter - new Vector3(-0.1f,0.09f,0), -Vector2.up, distToGround).collider || 
-		        Physics2D.Raycast(transform.position - yFromCenter + xFromCenter - new Vector3(-0.05f,0.09f,0), -Vector2.up, distToGround).collider || 
-		        Physics2D.Raycast(transform.position - yFromCenter - xFromCenter - new Vector3(-0.15f,0.09f,0), -Vector2.up, distToGround).collider);
+	{	
+		bool result = false;
+		RaycastHit2D[] ray = new RaycastHit2D[3];
+		ray [0] = Physics2D.Raycast(transform.position - yFromCenter - new Vector3(-0.1f,0.09f,0), -Vector2.up, distToGround);
+		ray [1] = Physics2D.Raycast(transform.position - yFromCenter + xFromCenter - new Vector3(-0.05f,0.09f,0), -Vector2.up, distToGround);
+		ray [2] = Physics2D.Raycast(transform.position - yFromCenter - xFromCenter - new Vector3(-0.15f,0.09f,0), -Vector2.up, distToGround);
+		
+		for (int i = 0; i <= 2; i++)
+		{
+		if (ray[i].collider)
+		{
+			if (ray[i].collider.tag == "Wall-Ground")
+			result = true;
+		}
+		}
+			
+		return result;
 	}
 
 
