@@ -14,7 +14,7 @@ Platform assembly: E:\Work\Development\Unity 5\Projects\Platform Fighting\Platfo
 Loading E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\development_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.304 seconds
+- Completed reload, in  0.604 seconds
 desktop: 1680x1050 60Hz; virtual: 3046x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -48,21 +48,7 @@ BulletCollision:OnTriggerEnter2D(Collider2D) (at E:\Work\Development\Unity 5\Pro
  
 (Filename: E:/Work/Development/Unity 5/Projects/Platform Fighting/Platform Fighting Game/Assets/Scripts/Collision/BulletCollision.cs Line: 27)
 
-Bullet Bullet(Clone) hits Ground
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-BulletCollision:OnTriggerEnter2D(Collider2D) (at E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\Assets\Scripts\Collision\BulletCollision.cs:27)
- 
-(Filename: E:/Work/Development/Unity 5/Projects/Platform Fighting/Platform Fighting Game/Assets/Scripts/Collision/BulletCollision.cs Line: 27)
-
 Bullet Bullet(Clone) hits Enemy_Box 2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-BulletCollision:OnTriggerEnter2D(Collider2D) (at E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\Assets\Scripts\Collision\BulletCollision.cs:27)
- 
-(Filename: E:/Work/Development/Unity 5/Projects/Platform Fighting/Platform Fighting Game/Assets/Scripts/Collision/BulletCollision.cs Line: 27)
-
-Bullet Bullet(Clone) hits Ground
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 BulletCollision:OnTriggerEnter2D(Collider2D) (at E:\Work\Development\Unity 5\Projects\Platform Fighting\Platform Fighting Game\Assets\Scripts\Collision\BulletCollision.cs:27)

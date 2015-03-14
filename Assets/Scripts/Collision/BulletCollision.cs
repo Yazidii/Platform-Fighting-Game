@@ -3,12 +3,13 @@ using System.Collections;
 
 public class BulletCollision : MonoBehaviour {
 	
-
+	public float bulletLifeTime;
+	
 	void Awake ()
 	{
-	
 		transform.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Continuous;
-	
+		bulletLifeTime = GameObject.Find("Gun").GetComponent<GunController>().BulletLifeTime;
+		StartCoroutine ("FiredBulletEvent");
 	}
 	
 	// Use this for initialization
@@ -30,5 +31,12 @@ public class BulletCollision : MonoBehaviour {
 		{
 			Destroy(other.gameObject);
 		}
+	}
+	
+	IEnumerator FiredBulletEvent()
+	{
+		yield return new WaitForSeconds(bulletLifeTime);
+		Destroy(this.gameObject);
+		yield return null;
 	}
 }

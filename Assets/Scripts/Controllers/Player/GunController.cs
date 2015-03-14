@@ -17,6 +17,7 @@ public class GunController : MonoBehaviour {
 	
 	private int facing;
 	private bool canControl;
+	private float bulletLifeTime = 3.0f;
 	
 	
 
@@ -117,7 +118,6 @@ public class GunController : MonoBehaviour {
 		// Give the cloned object an initial velocity along the current
 		// object's Z axis
 		firedBullet.GetComponent<Rigidbody2D>().velocity = transform.TransformDirection (Vector3.right * bulletSpeed);
-		StartCoroutine(FiredBulletEvent(firedBullet.gameObject));
 	}
 	
 	void PointLaser()
@@ -158,12 +158,7 @@ public class GunController : MonoBehaviour {
 		yield return null;
 	}
 	
-	IEnumerator FiredBulletEvent(GameObject bullet)
-	{
-		yield return new WaitForSeconds(0.3f);
-		Destroy(bullet);
-		yield return null;
-	}
+
 	
 	//GETSET
 	//Properties
@@ -222,5 +217,15 @@ public class GunController : MonoBehaviour {
 			canControl = value;
 		}
 	}
-	
+	public float BulletLifeTime
+	{
+		get
+		{
+			return bulletLifeTime;
+		}
+		set
+		{
+			bulletLifeTime = value;
+		}
+	}
 }
